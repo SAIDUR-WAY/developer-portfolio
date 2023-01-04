@@ -1,12 +1,13 @@
 * {
      margin: 0;
+     padding: 0;
      font-family: 'Open Sans', sans-serif;
 }
 
 .head-main {
      display: flex;
      justify-content: space-between;
-     margin: 50px 220px;
+     margin: 50px 119px;
      align-items: center;
 }
 
@@ -56,4 +57,41 @@ nav li {
 
 .btn-primary:hover {
      background-color: #8e3d03;
+}
+
+/* Header Banner Style */
+.banner {
+     display: flex;
+     align-items: center;
+     margin: 0 119px;
+}
+
+.banner-sub-title {
+     font-weight: 600;
+     font-size: 45px;
+     /* line-height: 61.28px; */
+     color: #474747;
+}
+
+.banner-title {
+     font-weight: 700;
+     font-size: 85px;
+     margin-bottom: 12px;
+     /* line-height: 116px; */
+}
+.banner-discription{
+     font-size: 18px;
+     margin-bottom: 30px;
+}
+.btn-scendary{
+     color: #000;
+     background-color: #fff;
+     font-weight: 700;
+     font-size: 20px;
+     height: 64px;
+     border-radius: 5px;
+     border: 1px solid #FD6E0A;
+     padding: 18px 35px;
+     line-height: 27px;
+     margin-left: 20px;
 }
