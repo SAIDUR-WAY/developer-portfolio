@@ -167,17 +167,19 @@ h6 {
      
 }
 /* Resume section style */
-.resume-contains h3{
-     padding: 0 50px;
+.resume{
+     margin: 130px 0;
 }
+
 .resume-contains{
      display: flex;
      justify-content: space-around;
-     margin: 50px;
+     margin: 40px 20x;
      text-align: left;
 }
-.edu-summary,.exp-summary{
-     padding: 10px 50px;
+.edu-summary{
+     
+     padding-right: 57px;
      
 }
 .edu-title,.exp-title{
