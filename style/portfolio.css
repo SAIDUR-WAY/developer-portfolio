@@ -250,7 +250,11 @@ footer span{
 }
 footer{
      text-align: center;
-     margin: 20px;
      padding: 30px 0;
      background-color: #878787;
+}
+.improve{
+     font-size: 30px;
+     color: white;
+     
 }
