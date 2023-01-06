@@ -192,3 +192,65 @@ h6 {
 .edu-description,.exp-description{
      color: #695757;
 }
+
+/* contact area style */
+
+.contact{
+     display: flex;
+     justify-content: space-around;
+     gap: 117px;
+     margin: 130px 0;
+     width: 100%;
+     
+}
+.cont-letme{
+     text-align: left;
+}
+.con-des{
+     width: 610px;
+}
+.cont-message input,textarea{
+     /* display: block; */
+     width: 100%;
+     padding: 15px;
+     margin: 10px 0;
+     border: none;
+
+}
+.cont-message input:hover,textarea:hover{
+     border: 1px solid darkblue;
+    
+     
+}
+.contact img{
+     margin: 20px;
+}
+.contact h3{
+     text-align: left;
+}
+#first-img{
+     margin-left: 0;
+}
+.contact textarea{
+     width: 100%;
+     margin: 10px 0;
+}
+input[type=submit] {
+     width: 50%;
+     margin-left:-167px;
+}
+/* input:focus {
+     background-color: rgb(198, 219, 225);
+} */
+/* Footer section style */
+footer span{
+     color: red;
+     font-weight: 800;
+     
+}
+footer{
+     text-align: center;
+     margin: 20px;
+     padding: 30px 0;
+     background-color: #878787;
+}
